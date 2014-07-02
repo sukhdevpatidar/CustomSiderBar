@@ -1,0 +1,518 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A91204195D4423006EA71F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A91203195D4423006EA71F /* Foundation.framework */; };
+		E1A91206195D4423006EA71F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A91205195D4423006EA71F /* CoreGraphics.framework */; };
+		E1A91208195D4423006EA71F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A91207195D4423006EA71F /* UIKit.framework */; };
+		E1A9120E195D4423006EA71F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A9120C195D4423006EA71F /* InfoPlist.strings */; };
+		E1A91210195D4423006EA71F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A9120F195D4423006EA71F /* main.m */; };
+		E1A91214195D4423006EA71F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A91213195D4423006EA71F /* AppDelegate.m */; };
+		E1A91216195D4423006EA71F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A91215195D4423006EA71F /* Images.xcassets */; };
+		E1A9121D195D4423006EA71F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A9121C195D4423006EA71F /* XCTest.framework */; };
+		E1A9121E195D4423006EA71F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A91203195D4423006EA71F /* Foundation.framework */; };
+		E1A9121F195D4423006EA71F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1A91207195D4423006EA71F /* UIKit.framework */; };
+		E1A91227195D4423006EA71F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1A91225195D4423006EA71F /* InfoPlist.strings */; };
+		E1A91229195D4423006EA71F /* SiderBarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A91228195D4423006EA71F /* SiderBarAppTests.m */; };
+		E1A91237195D4471006EA71F /* WelcomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A91235195D4471006EA71F /* WelcomePage.m */; };
+		E1A9123C195D452D006EA71F /* WelcomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1A9123B195D452D006EA71F /* WelcomePage.xib */; };
+		E1A91241195D4C9E006EA71F /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A9123F195D4C9E006EA71F /* menu.png */; };
+		E1A91242195D4C9E006EA71F /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = E1A91240195D4C9E006EA71F /* back.png */; };
+		E1A91246195D4F61006EA71F /* CommonLibary.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A91245195D4F61006EA71F /* CommonLibary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1A91220195D4423006EA71F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1A911F8195D4423006EA71F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1A911FF195D4423006EA71F;
+			remoteInfo = SiderBarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1A91200195D4423006EA71F /* SiderBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiderBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A91203195D4423006EA71F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1A91205195D4423006EA71F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1A91207195D4423006EA71F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1A9120B195D4423006EA71F /* SiderBarApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SiderBarApp-Info.plist"; sourceTree = "<group>"; };
+		E1A9120D195D4423006EA71F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1A9120F195D4423006EA71F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1A91211195D4423006EA71F /* SiderBarApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SiderBarApp-Prefix.pch"; sourceTree = "<group>"; };
+		E1A91212195D4423006EA71F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1A91213195D4423006EA71F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1A91215195D4423006EA71F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E1A9121B195D4423006EA71F /* SiderBarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SiderBarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1A9121C195D4423006EA71F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E1A91224195D4423006EA71F /* SiderBarAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SiderBarAppTests-Info.plist"; sourceTree = "<group>"; };
+		E1A91226195D4423006EA71F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1A91228195D4423006EA71F /* SiderBarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SiderBarAppTests.m; sourceTree = "<group>"; };
+		E1A91234195D4471006EA71F /* WelcomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomePage.h; sourceTree = "<group>"; };
+		E1A91235195D4471006EA71F /* WelcomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomePage.m; sourceTree = "<group>"; };
+		E1A9123B195D452D006EA71F /* WelcomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WelcomePage.xib; sourceTree = "<group>"; };
+		E1A9123F195D4C9E006EA71F /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		E1A91240195D4C9E006EA71F /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		E1A91244195D4F61006EA71F /* CommonLibary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonLibary.h; sourceTree = "<group>"; };
+		E1A91245195D4F61006EA71F /* CommonLibary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonLibary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1A911FD195D4423006EA71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A91206195D4423006EA71F /* CoreGraphics.framework in Frameworks */,
+				E1A91208195D4423006EA71F /* UIKit.framework in Frameworks */,
+				E1A91204195D4423006EA71F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A91218195D4423006EA71F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A9121D195D4423006EA71F /* XCTest.framework in Frameworks */,
+				E1A9121F195D4423006EA71F /* UIKit.framework in Frameworks */,
+				E1A9121E195D4423006EA71F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1A911F7195D4423006EA71F = {
+			isa = PBXGroup;
+			children = (
+				E1A91209195D4423006EA71F /* SiderBarApp */,
+				E1A91222195D4423006EA71F /* SiderBarAppTests */,
+				E1A91202195D4423006EA71F /* Frameworks */,
+				E1A91201195D4423006EA71F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1A91201195D4423006EA71F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91200195D4423006EA71F /* SiderBarApp.app */,
+				E1A9121B195D4423006EA71F /* SiderBarAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1A91202195D4423006EA71F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91203195D4423006EA71F /* Foundation.framework */,
+				E1A91205195D4423006EA71F /* CoreGraphics.framework */,
+				E1A91207195D4423006EA71F /* UIKit.framework */,
+				E1A9121C195D4423006EA71F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1A91209195D4423006EA71F /* SiderBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91243195D4F29006EA71F /* Libaries */,
+				E1A9123D195D4C27006EA71F /* Assets */,
+				E1A91232195D4430006EA71F /* Controllers */,
+				E1A91212195D4423006EA71F /* AppDelegate.h */,
+				E1A91213195D4423006EA71F /* AppDelegate.m */,
+				E1A91215195D4423006EA71F /* Images.xcassets */,
+				E1A9120A195D4423006EA71F /* Supporting Files */,
+			);
+			path = SiderBarApp;
+			sourceTree = "<group>";
+		};
+		E1A9120A195D4423006EA71F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A9120B195D4423006EA71F /* SiderBarApp-Info.plist */,
+				E1A9120C195D4423006EA71F /* InfoPlist.strings */,
+				E1A9120F195D4423006EA71F /* main.m */,
+				E1A91211195D4423006EA71F /* SiderBarApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A91222195D4423006EA71F /* SiderBarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91228195D4423006EA71F /* SiderBarAppTests.m */,
+				E1A91223195D4423006EA71F /* Supporting Files */,
+			);
+			path = SiderBarAppTests;
+			sourceTree = "<group>";
+		};
+		E1A91223195D4423006EA71F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91224195D4423006EA71F /* SiderBarAppTests-Info.plist */,
+				E1A91225195D4423006EA71F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1A91232195D4430006EA71F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91233195D443B006EA71F /* WelcomeController */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		E1A91233195D443B006EA71F /* WelcomeController */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91234195D4471006EA71F /* WelcomePage.h */,
+				E1A91235195D4471006EA71F /* WelcomePage.m */,
+				E1A9123B195D452D006EA71F /* WelcomePage.xib */,
+			);
+			name = WelcomeController;
+			sourceTree = "<group>";
+		};
+		E1A9123D195D4C27006EA71F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E1A9123E195D4C2E006EA71F /* Images */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		E1A9123E195D4C2E006EA71F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E1A9123F195D4C9E006EA71F /* menu.png */,
+				E1A91240195D4C9E006EA71F /* back.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		E1A91243195D4F29006EA71F /* Libaries */ = {
+			isa = PBXGroup;
+			children = (
+				E1A91244195D4F61006EA71F /* CommonLibary.h */,
+				E1A91245195D4F61006EA71F /* CommonLibary.m */,
+			);
+			name = Libaries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1A911FF195D4423006EA71F /* SiderBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A9122C195D4423006EA71F /* Build configuration list for PBXNativeTarget "SiderBarApp" */;
+			buildPhases = (
+				E1A911FC195D4423006EA71F /* Sources */,
+				E1A911FD195D4423006EA71F /* Frameworks */,
+				E1A911FE195D4423006EA71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiderBarApp;
+			productName = SiderBarApp;
+			productReference = E1A91200195D4423006EA71F /* SiderBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1A9121A195D4423006EA71F /* SiderBarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1A9122F195D4423006EA71F /* Build configuration list for PBXNativeTarget "SiderBarAppTests" */;
+			buildPhases = (
+				E1A91217195D4423006EA71F /* Sources */,
+				E1A91218195D4423006EA71F /* Frameworks */,
+				E1A91219195D4423006EA71F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1A91221195D4423006EA71F /* PBXTargetDependency */,
+			);
+			name = SiderBarAppTests;
+			productName = SiderBarAppTests;
+			productReference = E1A9121B195D4423006EA71F /* SiderBarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1A911F8195D4423006EA71F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ignis2;
+				TargetAttributes = {
+					E1A9121A195D4423006EA71F = {
+						TestTargetID = E1A911FF195D4423006EA71F;
+					};
+				};
+			};
+			buildConfigurationList = E1A911FB195D4423006EA71F /* Build configuration list for PBXProject "SiderBarApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1A911F7195D4423006EA71F;
+			productRefGroup = E1A91201195D4423006EA71F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1A911FF195D4423006EA71F /* SiderBarApp */,
+				E1A9121A195D4423006EA71F /* SiderBarAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1A911FE195D4423006EA71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A91241195D4C9E006EA71F /* menu.png in Resources */,
+				E1A91242195D4C9E006EA71F /* back.png in Resources */,
+				E1A9123C195D452D006EA71F /* WelcomePage.xib in Resources */,
+				E1A9120E195D4423006EA71F /* InfoPlist.strings in Resources */,
+				E1A91216195D4423006EA71F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A91219195D4423006EA71F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A91227195D4423006EA71F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1A911FC195D4423006EA71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A91214195D4423006EA71F /* AppDelegate.m in Sources */,
+				E1A91246195D4F61006EA71F /* CommonLibary.m in Sources */,
+				E1A91237195D4471006EA71F /* WelcomePage.m in Sources */,
+				E1A91210195D4423006EA71F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1A91217195D4423006EA71F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A91229195D4423006EA71F /* SiderBarAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1A91221195D4423006EA71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1A911FF195D4423006EA71F /* SiderBarApp */;
+			targetProxy = E1A91220195D4423006EA71F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1A9120C195D4423006EA71F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A9120D195D4423006EA71F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1A91225195D4423006EA71F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1A91226195D4423006EA71F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1A9122A195D4423006EA71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1A9122B195D4423006EA71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1A9122D195D4423006EA71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiderBarApp/SiderBarApp-Prefix.pch";
+				INFOPLIST_FILE = "SiderBarApp/SiderBarApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1A9122E195D4423006EA71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiderBarApp/SiderBarApp-Prefix.pch";
+				INFOPLIST_FILE = "SiderBarApp/SiderBarApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E1A91230195D4423006EA71F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SiderBarApp.app/SiderBarApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiderBarApp/SiderBarApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SiderBarAppTests/SiderBarAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E1A91231195D4423006EA71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SiderBarApp.app/SiderBarApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SiderBarApp/SiderBarApp-Prefix.pch";
+				INFOPLIST_FILE = "SiderBarAppTests/SiderBarAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1A911FB195D4423006EA71F /* Build configuration list for PBXProject "SiderBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A9122A195D4423006EA71F /* Debug */,
+				E1A9122B195D4423006EA71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A9122C195D4423006EA71F /* Build configuration list for PBXNativeTarget "SiderBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A9122D195D4423006EA71F /* Debug */,
+				E1A9122E195D4423006EA71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1A9122F195D4423006EA71F /* Build configuration list for PBXNativeTarget "SiderBarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1A91230195D4423006EA71F /* Debug */,
+				E1A91231195D4423006EA71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1A911F8195D4423006EA71F /* Project object */;
+}
